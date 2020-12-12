@@ -44,9 +44,9 @@ const Basket = () => {
 	return (
 		<>
 			<Typography component="h2" variant="h6" color="primary" gutterBottom>
-				Shopping Basket
+				Fruit Basket
 			</Typography>
-			<Typography component="p" variant="body1">
+			<Typography component="p" variant="body1" color="primary">
 				You have {products.filter((product) => product.added).length} items in your basket
 			</Typography>
 			<List className={classes.root}>
